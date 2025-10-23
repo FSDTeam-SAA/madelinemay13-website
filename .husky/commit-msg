@@ -1,9 +1,10 @@
 
-# Run commitlint
-npx --no-install commitlint --edit "$1" || true
+# Run commitlint and capture exit code
+npx --no-install commitlint --edit "$1"
+status=$?
 
-# If commitlint fails, show a professional message
-if [ $? -ne 0 ]; then
+# If commitlint fails, show a nice message and stop commit
+if [ $status -ne 0 ]; then
   echo ""
   echo "🚫 ❌ Commit rejected!"
   echo "------------------------------------------------------------"
@@ -11,9 +12,9 @@ if [ $? -ne 0 ]; then
   echo "👉  <type>: <short description>"
   echo ""
   echo "📘 Example formats:"
-  echo "   feat: add new hero section on homepage"
-  echo "   fix: correct footer alignment issue"
-  echo "   docs: update README with setup guide"
+  echo "   feat: add hero section in homepage"
+  echo "   fix: resolve navbar alignment issue"
+  echo "   docs: update README with setup instructions"
   echo "------------------------------------------------------------"
   echo "💡 Common types: feat, fix, docs, style, refactor, test, chore"
   echo "------------------------------------------------------------"
