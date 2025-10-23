@@ -1,0 +1,23 @@
+
+# Run commitlint
+npx --no-install commitlint --edit "$1" || true
+
+# If commitlint fails, show a professional message
+if [ $? -ne 0 ]; then
+  echo ""
+  echo "🚫 ❌ Commit rejected!"
+  echo "------------------------------------------------------------"
+  echo "🧭 Please follow the Conventional Commit format:"
+  echo "👉  <type>: <short description>"
+  echo ""
+  echo "📘 Example formats:"
+  echo "   feat: add new hero section on homepage"
+  echo "   fix: correct footer alignment issue"
+  echo "   docs: update README with setup guide"
+  echo "------------------------------------------------------------"
+  echo "💡 Common types: feat, fix, docs, style, refactor, test, chore"
+  echo "------------------------------------------------------------"
+  echo "🔗 Learn more: https://www.conventionalcommits.org/en/v1.0.0/"
+  echo ""
+  exit 1
+fi
