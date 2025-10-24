@@ -5,7 +5,7 @@ const Banner = () => {
     <section
       className="relative flex justify-center items-center h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/images/homehero.jpg')",
+        backgroundImage: "url('/images/banner.jpg')",
       }}
     >
       {/* Overlay */}
