@@ -3,7 +3,7 @@ import React from 'react'
 export default function Review() {
   return (
     <div>
-        This is Home Review section
+        This is Home Review section a
     </div>
   )
 }
