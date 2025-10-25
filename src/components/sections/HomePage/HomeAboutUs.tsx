@@ -35,7 +35,7 @@ export default function HomeAboutUs() {
               </h3>
 
               {/* Body Text */}
-              <div className="space-y-4 text-sm lg:text-base leading-relaxed mb-8 ">
+              <div className="space-y-4 text-sm lg:text-base leading-relaxed mb-8 w-full lg:w-5/6 text-white/90">
                 <p>
                   At Halo Physical Therapy, we believe true healing goes beyond
                   addressing a single injury—it&apos;s about restoring harmony
