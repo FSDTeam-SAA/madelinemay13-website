@@ -136,7 +136,7 @@ Because of them, I've regained my mobility and strength.”
           {testimonials.map((t, i) => (
             <Card
               key={i}
-              className="shrink-0 rounded-2xl shadow-md border  border-gray-100 hover:shadow-xl transition-all duration-300"
+              className="shrink-0 rounded-2xl shadow-md border my-3 border-gray-100 hover:shadow-sm transition-all duration-300"
               style={{ width: cardWidth }}
             >
               <CardContent className="p-6 text-left flex flex-col h-full justify-start">
@@ -177,7 +177,7 @@ Because of them, I've regained my mobility and strength.”
                   </div>
                 </div>
 
-                <p className="text-gray-600 italic text-sm leading-relaxed">
+                <p className="text-gray-600 italic text-sm leading-relaxed multiline-ellipsis ">
                   &quot;{t.text}&quot;
                 </p>
               </CardContent>

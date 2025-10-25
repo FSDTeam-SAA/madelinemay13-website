@@ -45,9 +45,18 @@ export default function GetInTuchReuseable() {
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setLoading(true);
+
     try {
       console.log(values);
       toast.success("Your message has been sent successfully!");
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ ...values }),
+      });
+      return response;
       form.reset();
     } catch {
       toast.error("Failed to send message.");
