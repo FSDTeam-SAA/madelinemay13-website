@@ -1,5 +1,12 @@
+import GetInTuchReuseable from "@/components/Reusable/GetInTuchReuseable";
 import React from "react";
 
-export default function GetInTouch() {
-  return <div>This is About Us Get In Touch section</div>;
-}
+const GetInTouch = () => {
+  return (
+    <div>
+      <GetInTuchReuseable />
+    </div>
+  );
+};
+
+export default GetInTouch;
