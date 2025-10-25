@@ -27,9 +27,6 @@ const formSchema = z.object({
   email: z.string().email("Invalid email address"),
   phone: z.string().min(10, "Phone number must be at least 10 digits"),
   message: z.string().min(1, "Message is required"),
-  agree: z.boolean().refine((val) => val === true, {
-    message: "You must agree to terms",
-  }),
 });
 
 export default function GetInTuchReuseable() {
@@ -43,7 +40,6 @@ export default function GetInTuchReuseable() {
       email: "",
       phone: "",
       message: "",
-      agree: false,
     },
   });
 
