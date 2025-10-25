@@ -38,15 +38,10 @@ export default function HomeAboutUs() {
               {/* Body Text */}
               <div className="space-y-4 text-sm lg:text-base leading-relaxed mb-8 w-full lg:w-5/6 text-white/90">
                 <p>
-                  At Halo Physical Therapy, we believe true healing goes beyond
-                  addressing a single injury—it&apos;s about restoring harmony
-                  throughout the entire body. Our philosophy centers on treating
-                  the whole person by understanding the root cause of discomfort
-                  and creating a path toward complete physical and emotional
-                  well-being. Every patient receives individualized attention
-                  through evidence-based methods, compassionate care, and
-                  hands-on techniques designed to promote recovery and build
-                  lasting strength.
+                  At Lolo Physical Therapy, Our goal is to treat the whole
+                  person, not just an isolated injury. We offer personalized,
+                  one-on-one treatments to promote each patient&apos;s long-term
+                  health and to ensure wellness and activity goals are met.
                 </p>
                 <p>
                   We take the time to listen, assess, and craft personalized
