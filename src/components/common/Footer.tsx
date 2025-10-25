@@ -34,13 +34,13 @@ const Footer = () => {
             nationwide.
           </p>
           <div className="flex gap-4 mt-6">
-            <Link href="#" aria-label="Facebook">
+            <Link href="https://www.facebook.com" aria-label="Facebook">
               <Facebook className="text-[#1256A9] transition" />
             </Link>
-            <Link href="#" aria-label="Twitter">
+            <Link href="https://www.x.com" aria-label="Twitter">
               <Twitter className="text-[#1256A9] transition" />
             </Link>
-            <Link href="#" aria-label="LinkedIn">
+            <Link href="https://www.linkedin.com" aria-label="LinkedIn">
               <Linkedin className="text-[#1256A9] transition" />
             </Link>
           </div>
@@ -50,8 +50,8 @@ const Footer = () => {
         <div>
           <h3 className="text-[#343A40] font-medium mb-4">Quick Links</h3>
           <ul className="space-y-2 text-[#343A40]">
-            <li>
-              <Link href="/" className=" transition">
+            <li className="cursor-pointer">
+              <Link href="/" className=" transition cursor-pointer">
                 Home
               </Link>
             </li>
