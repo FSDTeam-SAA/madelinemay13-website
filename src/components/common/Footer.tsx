@@ -30,18 +30,20 @@ const Footer = () => {
       <div className="relative container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Left Section */}
         <div>
-          <Link href="/">
+          <Link href="/" className="w-24 h-20">
             <Image
               src="/images/footerlogo.png"
               alt="Footer Logo"
-              width={200}
-              height={200}
-              className="mb-2  object-center"
+              width={90}
+              height={80}
+              className="mb-2 w-24 h-20  object-cover"
             />
           </Link>
           <p className="text-gray-200">
-            Connecting families with trusted assisted living facilities
-            nationwide.
+            Our goal is to treat the whole person, not just an isolated injury.
+            We offer personalized, one-on-one treatments to promote each
+            patient&apos;s long-term health and to ensure wellness and activity
+            goals are met.
           </p>
           <div className="flex gap-4 mt-6">
             <Link href="https://www.facebook.com" aria-label="Facebook">
