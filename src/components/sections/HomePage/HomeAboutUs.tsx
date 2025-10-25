@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomeAboutUs() {
   return (
@@ -59,13 +60,15 @@ export default function HomeAboutUs() {
               </div>
 
               {/* Button */}
-              <Button
-                variant="secondary"
-                size="lg"
-                className="bg-white text-[#3d5a80] hover:bg-white/90 font-semibold px-8"
-              >
-                Contact Us
-              </Button>
+              <Link href="/contact-us">
+                <Button
+                  variant="secondary"
+                  size="lg"
+                  className="bg-white text-[#3d5a80] cursor-pointer hover:bg-white/90 font-semibold px-8"
+                >
+                  Contact Us
+                </Button>
+              </Link>
 
               {/* Signature */}
               <div className="mt-12 ml-96">

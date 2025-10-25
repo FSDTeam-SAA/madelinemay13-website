@@ -25,15 +25,17 @@ export default function TopHeader() {
             <div className="message flex flex-col sm:flex-row justify-between items-center sm:items-start text-center sm:text-left gap-2 sm:gap-6 px-2">
               <div className="flex items-center text-white gap-2 sm:gap-3">
                 <Phone className="text-white w-4 h-4 sm:w-4 sm:h-4" />
-                <p className="text-[10px] sm:text-xs md:text-sm">654564</p>
+                <p className="text-[10px] sm:text-xs md:text-sm">
+                  409-273-5096
+                </p>
               </div>
               <div className="flex items-center text-white gap-2 sm:gap-3 sm:text-xs md:text-sm">
                 <Mail className="text-white w-4 h-4 sm:w-4 sm:h-4" />
                 <a
-                  href="mailto:scubastevenar@gmail.com"
+                  href="mailto:info@luburbwalorthemogy.com"
                   className="hover:underline sm:text-xs md:text-sm"
                 >
-                  example@mail.com
+                  info@luburbwalorthemogy.com
                 </a>
               </div>
               {/* <div className="flex items-center text-white gap-2 sm:gap-3 sm:text-xs md:text-sm">
