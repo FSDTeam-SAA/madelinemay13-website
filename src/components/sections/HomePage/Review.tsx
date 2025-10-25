@@ -178,7 +178,7 @@ Because of them, I've regained my mobility and strength.”
                 </div>
 
                 <p className="text-gray-600 italic text-sm leading-relaxed">
-                  &quot;{t.text}&quot;
+                  {t.text}
                 </p>
               </CardContent>
             </Card>

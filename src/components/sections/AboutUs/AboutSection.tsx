@@ -72,25 +72,26 @@ export default function AboutSection() {
               <div className="space-y-4 text-[#6C757D]  leading-relaxed">
                 <p>
                   {" "}
-                  Madeline is a skepticism native and Doctor of Physical Therapy
-                  who earned her degree from the University of Montana in 2012.
+                  Madeline is a Montana native and Doctor of Physical Therapy
+                  who earned her degree from the University of Montana in 2017.
                   With over a decade of experience in the field, her practice
                   emphasizes manual therapy, exercise prescription, and
-                  personalized, evidence-based care
+                  personalized, evidence-based care.
                 </p>
                 <p>
                   She has advanced training in oncology rehabilitation and
-                  lymphadenoma management through the Norton School of
-                  Unrehabilitation, which includes the Principal Investigator
-                  (PTSD) and the Clinical Investigator (CCTV). She also
-                  incorporates the key findings to address pain, restore
-                  mobility, and enhance overall function.
+                  lymphedema management through the Norton School of Lymphatic
+                  Therapy, pelvic floor rehabilitation through Herman & Wallace,
+                  visceral manipulation through the Barral Institute and
+                  orthopedic manual therapy through NAIOMT. Madeline also
+                  incorporates dry needling into her treatments to address pain,
+                  restore mobility, and enhance overall function.
                 </p>
                 <p>
                   Outside of the clinic, Madeline and her husband, Todd, enjoy
-                  life in the Bitterroot Valley—spending time outdoors, sitting,
-                  postdisboarding, and exploring Montana&apos;s beauty. She also
-                  enjoys photography, gardening, travel, and meeting.
+                  life in the Bitterroot Valley—spending time outdoors, skiing,
+                  paddleboarding, and exploring Montana&apos;s beauty. She also
+                  enjoys photography, gardening, travel, and reading.
                 </p>
               </div>
 
