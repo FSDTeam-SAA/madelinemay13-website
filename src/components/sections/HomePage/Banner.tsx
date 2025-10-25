@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
 const Banner = () => {
@@ -24,9 +26,11 @@ const Banner = () => {
           strength, and improving confidence in every movement—helping you
           recover, stay active, and live life to the fullest.
         </p>
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-14 cursor-pointer rounded-md transition">
-          Contact Us
-        </button>
+        <Link href="/contact-us">
+          <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-14 cursor-pointer rounded-md transition">
+            Contact Us
+          </Button>
+        </Link>
       </div>
     </section>
   );

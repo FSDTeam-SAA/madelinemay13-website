@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
 const treatments = [
@@ -202,9 +204,11 @@ export default function OurTreatments() {
       </div>
 
       <div className="text-center mt-12">
-        <button className="px-6 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition">
-          See all Services
-        </button>
+        <Link href="/services">
+          <Button className="px-6 py-2 border bg-transparent cursor-pointer border-blue-600 text-blue-600 rounded hover:bg-blue-200 transition">
+            See all Services
+          </Button>
+        </Link>
       </div>
     </div>
   );

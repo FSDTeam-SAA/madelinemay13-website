@@ -43,13 +43,22 @@ export default function AboutSection() {
                   Madeline May
                 </h2>
                 <div className="flex gap-4 mt-6 ">
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://www.facebook.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Facebook />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://x.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Twitter />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://www.linkedin.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Linkedin />
                   </a>
                 </div>
@@ -113,13 +122,13 @@ export default function AboutSection() {
                   Reilly
                 </h2>
                 <div className="flex gap-4 mt-6 ">
-                  {/* <a href="#" className="hover:text-blue-400 transition-colors">
+                  {/* <a hrf="https://www.facebook.com" className="hover:text-blue-400 text-primary transition-colors">
                     <Facebook />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a href="https://x.com" className="hover:text-blue-400 text-primary transition-colors">
                     <Twitter />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a href="https://www.linkedin.com" className="hover:text-blue-400 text-primary transition-colors">
                     <Linkedin />
                   </a> */}
                 </div>
@@ -226,13 +235,22 @@ export default function AboutSection() {
                   Kevin Holmes
                 </h2>
                 <div className="flex gap-4 mt-6 ">
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://www.facebook.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Facebook />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://x.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Twitter />
                   </a>
-                  <a href="#" className="hover:text-blue-400 transition-colors">
+                  <a
+                    href="https://www.linkedin.com"
+                    className="hover:text-blue-400 text-primary transition-colors"
+                  >
                     <Linkedin />
                   </a>
                 </div>
