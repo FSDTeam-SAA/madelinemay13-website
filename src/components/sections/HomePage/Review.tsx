@@ -117,7 +117,9 @@ Because of them, I've regained my mobility and strength.”
       <h2 className="text-3xl font-semibold text-gray-900 mb-2">
         What Our Patient Say
       </h2>
-      <p className="text-gray-500 mb-10 max-w-2xl mx-auto"></p>
+      <p className="text-gray-500 mb-10 max-w-2xl mx-auto">
+        Voices of our patients&apos;s journeys.
+      </p>
 
       {/* Slider Container */}
       <div className="relative overflow-hidden">
