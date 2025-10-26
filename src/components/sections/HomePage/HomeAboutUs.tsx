@@ -38,7 +38,7 @@ export default function HomeAboutUs() {
               {/* Body Text */}
               <div className="space-y-4 text-sm md:text-base leading-relaxed mb-6 md:mb-8 w-full lg:w-5/6 text-white/90">
                 <p>
-                  At Lolo Physical Therapy, Our goal is to treat the whole
+                  At Lolo Physical Therapy, our goal is to treat the whole
                   person, not just an isolated injury. We offer personalized,
                   one-on-one treatments to promote each patient&apos;s long-term
                   health and to ensure wellness and activity goals are met.
