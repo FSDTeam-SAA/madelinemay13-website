@@ -7,7 +7,8 @@ const Banner = () => {
     <section
       className="relative flex justify-center items-center h-screen bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/images/banner.jpg')",
+        backgroundImage:
+          "url('https://res.cloudinary.com/dzzhuumw9/image/upload/v1761441073/nature3_cvtgkn.jpg')",
       }}
     >
       {/* Overlay */}

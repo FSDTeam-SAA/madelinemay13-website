@@ -51,7 +51,7 @@ export default function ContactInformationWithMap() {
               <div className="flex items-start gap-1.5 rounded-lg my-6 transition-colors">
                 <Phone className="w-5 h-5 text-[#1256A9] mt-0.5" />
                 <a
-                  href="tel:4092735096"
+                  href="tel:406-273-3730"
                   className="text-[#1256A9] hover:underline"
                 >
                   406-273-3730
@@ -62,7 +62,7 @@ export default function ContactInformationWithMap() {
               <div className="flex items-start gap-1.5 rounded-lg my-6 transition-colors">
                 <Printer className="w-5 h-5 text-[#1256A9] mt-0.5" />
                 <a
-                  href="tel:4092733730"
+                  href="tel:406-273-9088"
                   className="text-[#1256A9] hover:underline"
                 >
                   406-273-9088

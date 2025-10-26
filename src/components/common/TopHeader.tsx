@@ -26,10 +26,10 @@ export default function TopHeader() {
               <div className="flex items-center text-white gap-2 sm:gap-3">
                 <Phone className="text-white w-4 h-4 sm:w-4 sm:h-4" />
                 <a
-                  href="tel:4092735096"
-                  className="text-[10px] sm:text-xs md:text-sm  transition-colors"
+                  href="tel:406-273-3730"
+                  className="text-[10px] sm:text-xs md:text-sm hover:underline  transition-colors"
                 >
-                  409-273-5096
+                  406-273-3730
                 </a>
               </div>
               <div className="flex items-center text-white gap-2 sm:gap-3 sm:text-xs md:text-sm">

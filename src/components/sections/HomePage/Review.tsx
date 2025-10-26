@@ -115,12 +115,9 @@ Because of them, I've regained my mobility and strength.”
   return (
     <section className="w-full max-w-7xl mx-auto py-16 px-4 text-center">
       <h2 className="text-3xl font-semibold text-gray-900 mb-2">
-        What Our Customers Say
+        What Our Patient Say
       </h2>
-      <p className="text-gray-500 mb-10 max-w-2xl mx-auto">
-        Real stories from customers who love TABLEFRESH&apos;s organic produce
-        and fast delivery service.
-      </p>
+      <p className="text-gray-500 mb-10 max-w-2xl mx-auto"></p>
 
       {/* Slider Container */}
       <div className="relative overflow-hidden">
@@ -177,8 +174,8 @@ Because of them, I've regained my mobility and strength.”
                   </div>
                 </div>
 
-                <p className="text-gray-600 italic text-sm leading-relaxed multiline-ellipsis ">
-                  &quot;{t.text}&quot;
+                <p className="text-gray-600 italic text-sm leading-relaxed">
+                  {t.text}
                 </p>
               </CardContent>
             </Card>
