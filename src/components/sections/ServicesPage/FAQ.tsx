@@ -8,34 +8,54 @@ import Link from "next/link";
 export default function FAQ() {
   const faqData = [
     {
-      question: "Is there a free trial available?",
+      question: "Do I need a doctor’s referral to start physical therapy?",
       answer:
-        "Yes, you can try us for free for 30 days. If you want, we'll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "No! In Montana, you have Direct Access to physical therapy, which means you can see a physical therapist without a doctor’s referral. However, some insurance plans may still require a referral for coverage, so it’s always a good idea to check with your insurance provider or call our office for assistance.",
     },
     {
-      question: "Can I change my plan later?",
+      question: "What should I expect at my first appointment?",
       answer:
-        "You can easily change your plan anytime from your account settings. Just choose the plan that suits your needs.",
+        "Your first visit includes a thorough evaluation by a licensed physical therapist, discussion of your medical history, and a personalized treatment plan tailored to your goals. You’ll also receive education and, in most cases, start treatment the same day.",
     },
     {
-      question: "What is your cancellation policy?",
+      question: "What should I wear to my appointments?",
       answer:
-        "You can cancel your subscription at any time without additional charges. Billing stops immediately after cancellation.",
+        "Wear comfortable, loose-fitting clothing that allows easy movement. Athletic wear or clothes that let your therapist access the area being treated (such as shorts for a knee injury) are best.",
     },
     {
-      question: "Can other info be added to an invoice?",
+      question: "How long are physical therapy sessions?",
       answer:
-        "Yes, you can include custom details or notes on invoices for your records or accounting purposes.",
+        "Most sessions last about 45–60 minutes, depending on your specific treatment plan and progress.",
     },
     {
-      question: "How does billing work?",
+      question: "How often will I need to come in for therapy?",
       answer:
-        "Billing is handled on a monthly basis, and you can view your invoices anytime in your account.",
+        "Frequency depends on your condition and goals. Many patients attend 2–3 times per week initially, with frequency tapering as you improve.",
     },
     {
-      question: "How do I change my account email?",
+      question: "Do you accept my insurance?",
       answer:
-        "Simply go to account settings → profile → change email, and follow the verification step.",
+        "We work with most major insurance providers and will verify your benefits before your first visit. We will do our best to help explain your coverage, co-pays, and any out-of-pocket costs to mitigate any surprises. Be sure to contact your insurance company for understanding of your coverage.",
+    },
+    {
+      question: "What if I don’t have insurance?",
+      answer:
+        "We offer self-pay options and flexible payment plans for patients without insurance. Our goal is to make high-quality care accessible to everyone.",
+    },
+    {
+      question: "Can physical therapy help if I’ve already had surgery?",
+      answer:
+        "Absolutely. Post-surgical rehabilitation is one of the most common reasons patients see us. We’ll help you safely restore strength, mobility, and confidence in your movement.",
+    },
+    {
+      question: "What conditions do you treat?",
+      answer:
+        "We treat a wide range of orthopedic and musculoskeletal issues including back and neck pain, joint injuries, post-surgical recovery, sports injuries, balance problems, and chronic pain conditions.",
+    },
+    {
+      question: "How do I schedule an appointment?",
+      answer:
+        "You can schedule by calling our office, send us an email, or have your physician send us a referral and we will follow up with you as soon as we can. If you don’t hear from us, please call to get on our schedule!",
     },
   ];
 
@@ -96,14 +116,6 @@ export default function FAQ() {
 
         {/* CONTACT SECTION */}
         <div className="bg-[#F8F9FA] rounded-xl mt-16 p-8 md:p-10 text-center max-w-5xl mx-auto">
-          <div className="flex justify-center mb-4">
-            <Image
-              src="/images/Avatar group.png"
-              alt="Support Team"
-              width={90}
-              height={90}
-            />
-          </div>
           <h2
             className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2"
             style={{ fontFamily: "var(--font-playfair)" }}
