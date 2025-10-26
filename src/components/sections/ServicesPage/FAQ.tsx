@@ -116,14 +116,6 @@ export default function FAQ() {
 
         {/* CONTACT SECTION */}
         <div className="bg-[#F8F9FA] rounded-xl mt-16 p-8 md:p-10 text-center max-w-5xl mx-auto">
-          <div className="flex justify-center mb-4">
-            <Image
-              src="/images/Avatar group.png"
-              alt="Support Team"
-              width={90}
-              height={90}
-            />
-          </div>
           <h2
             className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2"
             style={{ fontFamily: "var(--font-playfair)" }}

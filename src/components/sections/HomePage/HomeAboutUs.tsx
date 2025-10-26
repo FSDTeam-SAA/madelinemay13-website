@@ -12,7 +12,7 @@ export default function HomeAboutUs() {
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 rounded-lg overflow-hidden">
               <Image
-                src="/images/bg.png"
+                src="https://res.cloudinary.com/dzzhuumw9/image/upload/v1761440632/bg_odc5dq.png"
                 alt=""
                 fill
                 className="object-cover"
