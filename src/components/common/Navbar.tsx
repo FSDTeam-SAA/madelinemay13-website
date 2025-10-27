@@ -82,6 +82,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Button } from "../ui/button";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -153,12 +154,12 @@ export default function Navbar() {
         <div className="md:hidden">
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
-              <button
-                className="text-gray-100 hover:text-white transition-colors"
+              <Button
+                className="text-gray-500 bg-white hover:text-white transition-colors"
                 aria-label="Toggle menu"
               >
                 {open ? <X size={28} /> : <Menu size={28} />}
-              </button>
+              </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <nav className="flex flex-col space-y-6 mt-8">
@@ -167,7 +168,7 @@ export default function Navbar() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="text-gray-700 font-medium text-lg hover:text-primary hover:font-semibold transition-all duration-200 py-2"
+                    className="text-gray-700 px-5 hover:underline font-medium text-lg hover:text-primary hover:font-semibold transition-all duration-200 py-2"
                   >
                     {item.label}
                   </Link>
