@@ -89,7 +89,7 @@ Because of them, I've regained my mobility and strength.”
         What Our Patient Say
       </h2>
       <p className="text-gray-500 mb-10 max-w-2xl mx-auto">
-        Voices of our patients&apos;s journeys.
+        Voices of our patients&apos; journeys.
       </p>
 
       {/* Slider Container */}

@@ -237,56 +237,56 @@ const treatments = [
   {
     title: "Orthopedic & Sports Injuries",
     description:
-      "Personalized care for joint, muscle, and tendon injuries—helping you recover fully and prevent future setbacks.",
+      "We specialize in diagnosing and treating joint, muscle, and tendon injuries affecting the neck, back, shoulder, elbow, wrist, hip, knee, and ankle. Whether you’re recovering from surgery, managing arthritis, or dealing with a sports-related injury, we create personalized plans to restore mobility and prevent recurrence.Personalized care for joint, muscle, and tendon injuries—helping you recover fully and prevent future setbacks.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437325/image14_y1zk2g.png",
   },
   {
     title: "Pre- & Post-Surgical Rehabilitation",
     description:
-      "Guided recovery programs to restore strength, mobility, and confidence after surgery.",
+      "Our team guides patients through recovery from orthopedic surgeries, including joint replacements, rotator cuff repairs, ligament reconstructions, and spinal procedures. With focused progression and ongoing communication with your surgeon, we help you regain function safely and effectively.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437329/image14-1_ri3i6n.png",
   },
   {
     title: "Spine & Nerve Conditions",
     description:
-      "Expert treatment for back, neck, and nerve pain to restore balance, alignment, and comfort.",
+      "Neck and back pain, sciatica, and nerve compression can limit daily function. Using targeted manual techniques, dry needling, and exercise therapy, we aim to reduce pain, restore alignment, and improve stability and movement control.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437325/image3-1_qqstwx.png",
   },
   {
     title: "Pelvic Health & Lumbopelvic Pain",
     description:
-      "Comprehensive care for pelvic floor dysfunction, pain, and stability to improve daily comfort and function.",
+      "Pelvic floor dysfunction can contribute to issues such as urinary leakage, pelvic pain, or low back discomfort. Madeline provides specialized care through her advanced training with the Herman & Wallace Pelvic Rehabilitation Institute to restore strength, coordination, and confidence.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437326/image3_hqv4gz.png",
   },
   {
     title: "Lymphedema & Oncology Rehabilitation",
     description:
-      "Specialized therapy for swelling and recovery following cancer treatment, surgery, or injury.",
+      "Madeline is a Certified Lymphedema Therapist through the Norton School of Lymphatic Therapy and provides skilled treatment for swelling related to cancer care, surgery, or injury. Lymphedema management supports healing, comfort, and improved quality of life.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437328/image15_lybbz3.png",
   },
   {
     title: "Visceral Manipulation",
     description:
-      "Gentle manual therapy to improve organ mobility, reduce tension, and enhance overall body function.",
+      "Visceral manipulation is a gentle manual therapy addressing tension and mobility restrictions within the body’s internal organs and surrounding tissues. This technique can improve digestion, decrease pain, and enhance overall body function when musculoskeletal or pelvic issues have an internal component.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437331/image15-1_olul2w.png",
   },
   {
     title: "Performance & Injury Prevention",
     description:
-      "Customized movement and strength programs designed to enhance performance, build resilience, and prevent injury.",
+      "We believe the best care includes preventing injury before it happens. Through movement assessment, strength and mobility training, and individualized conditioning programs, we help patients and athletes of all levels move efficiently, reduce the risk of injury, and perform at their best. Whether you’re preparing for surgery, training for a sport, or simply want to stay active, our team tailors each program to your goals and lifestyle.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437327/image6_sy6kxn.png",
   },
   {
     title: "Chronic Pain & Movement Dysfunction",
     description:
-      "Holistic care for long-term pain—helping you regain mobility, strength, and confidence in movement.",
+      "For individuals managing persistent pain or functional limitations, we focus on restoring balanced movement patterns, improving strength and flexibility, and building confidence in daily activities.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437327/image6-1_hetjvz.png",
   },
@@ -316,7 +316,7 @@ export default function Treatments() {
               <h3 className="font-semibold text-lg mb-2 text-gray-800 group-hover:text-blue-500 transition">
                 {treatment.title}
               </h3>
-              <p className="text-gray-600 text-sm group-hover:text-blue-500 transition">
+              <p className="text-gray-600 text-base group-hover:text-blue-500 transition">
                 {treatment.description}
               </p>
             </div>

@@ -112,20 +112,22 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
+
       {/* kevin section */}
-      <div className="container mx-auto py-8 px-4">
-        <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-          {/* Right Side - Text Content */}
-          <div className="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+      <div className="container mx-auto py-12 px-4">
+        <div className="flex flex-col-reverse lg:flex-row lg:items-center gap-10">
+          {/* LEFT SIDE (TEXT CONTENT) */}
+          <div className="w-full lg:w-1/2 p-6 md:p-10 flex flex-col justify-center">
             <div className="max-w-xl mx-auto">
-              <div className="flex items-center justify-between ">
+              <div className="flex items-center justify-between flex-wrap gap-4">
                 <h2
                   style={{ fontFamily: "var(--font-playfair)" }}
-                  className="text-3xl font-bold mb-2"
+                  className="text-3xl md:text-4xl font-bold mb-2"
                 >
                   Kevin Holmes
                 </h2>
-                <div className="flex gap-4 mt-6 ">
+                {/* Social Icons */}
+                <div className="flex gap-4">
                   <a
                     href="https://www.facebook.com"
                     className="hover:text-blue-400 text-primary transition-colors"
@@ -146,15 +148,15 @@ export default function AboutSection() {
                   </a>
                 </div>
               </div>
+
               <p className="text-sm text-gray-400 font-semibold mb-6 flex gap-2 items-center">
                 <span>PT</span>
                 <span>DPT</span>
                 <span>OCS</span>
               </p>
 
-              <div className="space-y-4 text-[#6C757D]  leading-relaxed">
+              <div className="space-y-4 text-[#6C757D] leading-relaxed">
                 <p>
-                  {" "}
                   Kevin earned his Doctorate of Physical Therapy from the
                   University of Montana in 2011 and is a board-certified
                   Orthopedic Clinical Specialist. With extensive experience in
@@ -171,7 +173,6 @@ export default function AboutSection() {
                   focusing on performance optimization, injury prevention, and
                   safe return-to-sport strategies.
                 </p>
-
                 <p>
                   Outside of the clinic, Kevin enjoys life in Missoula with his
                   family. He&apos;s an avid mountain biker and outdoor
@@ -179,39 +180,24 @@ export default function AboutSection() {
                   mountains, rivers, and snowy trails have to offer.
                 </p>
               </div>
-
-              {/* <div className="mt-6 pt-6 border-t border-gray-700">
-                <p className="text-[#6C757D] italic">
-                  Outside of the clinic, Madeline and her husband, Todd, enjoy
-                  life in the Bitterroot Valley—spending time outdoors, sitting,
-                  postdisboarding, and exploring Montana&apos;s beauty. She also
-                  enjoys photography, gardening, travel, and meeting.
-                </p>
-              </div> */}
-
-              {/* Social Icons */}
             </div>
           </div>
-          {/* Left Side - Image with blue frame */}
-          <div className="relative md:w-1/2 flex justify-center items-center">
+
+          {/* RIGHT SIDE (IMAGE) */}
+          <div className="relative w-full lg:w-1/2 flex justify-center items-center">
             {/* Main image */}
             <div className="relative w-full max-w-[550px] h-[600px] bg-white z-20">
               <Image
-                src={
-                  "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761440299/kevin_r57n6b.png"
-                }
-                alt="about"
+                src="https://res.cloudinary.com/dzzhuumw9/image/upload/v1761440299/kevin_r57n6b.png"
+                alt="Kevin Holmes"
                 fill
                 className="object-cover rounded-sm"
               />
             </div>
-
-            {/* Blue frame behind image */}
-            <div className="absolute -bottom-6 left-18 w-full max-w-[80%] h-[400px] z-10">
+            {/* Blue frame */}
+            <div className="absolute -bottom-6 left-18 w-full max-w-[80%] h-[400px] z-10 hidden lg:block">
               <Image
-                src={
-                  "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761440474/riley-bg_lbi4kx.png"
-                }
+                src="https://res.cloudinary.com/dzzhuumw9/image/upload/v1761440474/riley-bg_lbi4kx.png"
                 alt="background frame"
                 fill
                 className="object-cover"
