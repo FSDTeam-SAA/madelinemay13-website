@@ -237,7 +237,7 @@ const treatments = [
   {
     title: "Orthopedic & Sports Injuries",
     description:
-      "We specialize in diagnosing and treating joint, muscle, and tendon injuries affecting the neck, back, shoulder, elbow, wrist, hip, knee, and ankle. Whether you’re recovering from surgery, managing arthritis, or dealing with a sports-related injury, we create personalized plans to restore mobility and prevent recurrence.Personalized care for joint, muscle, and tendon injuries—helping you recover fully and prevent future setbacks.",
+      "We specialize in diagnosing and treating joint, muscle, and tendon injuries affecting the neck, back, shoulder, elbow, wrist, hip, knee, and ankle. Whether you’re recovering from surgery, managing arthritis, or dealing with a sports-related injury, we create personalized plans to restore mobility and prevent recurrence.",
     image:
       "https://res.cloudinary.com/dzzhuumw9/image/upload/v1761437325/image14_y1zk2g.png",
   },

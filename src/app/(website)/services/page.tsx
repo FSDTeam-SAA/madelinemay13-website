@@ -8,7 +8,7 @@ export default function page() {
     <div>
       <Hero
         heading="Our Services"
-        subHeading="Discover expertly crafted experiences designed to delight your senses from artisanal flavors to unforgettable ambiance, we bring excellence to every moment."
+        subHeading="We provide personalized physical therapy to restore mobility, alleviate pain, and enhance overall well-being, from injury recovery to performance optimization."
       />
       <Treatments />
       <FAQ />
