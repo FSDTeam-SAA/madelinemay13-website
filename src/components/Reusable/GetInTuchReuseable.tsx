@@ -47,23 +47,29 @@ export default function GetInTuchReuseable() {
     setLoading(true);
 
     try {
-      console.log(values);
-      toast.success("Your message has been sent successfully!");
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "content-type": "application/json",
         },
-        body: JSON.stringify({ ...values }),
+        body: JSON.stringify(values),
       });
-      return response;
+
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      // ✅ Clear all form fields
       form.reset();
-    } catch {
+      toast.success("Your message has been sent successfully!");
+    } catch (error) {
+      console.error(error);
       toast.error("Failed to send message.");
     } finally {
       setLoading(false);
     }
   }
+
   return (
     <section className=" my-2 md:my-10 mt-[60px] lg:mt-[120px]">
       <div className="container mx-auto bg-[#FFF] rounded-2xl shadow-md p-10 grid grid-cols-1 md:grid-cols-2 ">
@@ -176,41 +182,6 @@ export default function GetInTuchReuseable() {
                   </FormItem>
                 )}
               />
-
-              {/* Agree Checkbox */}
-              {/* <FormField
-                control={form.control}
-                name="agree"
-                render={({ field }) => (
-                  <FormItem className="flex items-center space-x-2">
-                    <FormControl>
-                      <Checkbox
-                        className="cursor-pointer"
-                        checked={field.value}
-                        onCheckedChange={field.onChange}
-                      />
-                    </FormControl>
-                    <span className="text-sm text-gray-600">
-                      You agree to our friendly{" "}
-                      <Link
-                        href="/terms-conditions"
-                        className="text-green-600 underline cursor-pointer"
-                      >
-                        Terms & Conditions
-                      </Link>{" "}
-                      and{" "}
-                      <Link
-                        href="/privacy-policy"
-                        className="text-green-600 underline cursor-pointer"
-                      >
-                        Privacy Policy
-                      </Link>
-                      .
-                    </span>
-                    <FormMessage />
-                  </FormItem>
-                )}
-              /> */}
 
               {/* Submit */}
               <Button
