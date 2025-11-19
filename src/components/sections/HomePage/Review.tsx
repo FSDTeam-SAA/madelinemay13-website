@@ -86,7 +86,7 @@ Because of them, I've regained my mobility and strength.”
   return (
     <section className="w-full max-w-7xl mx-auto py-16 px-4 text-center">
       <h2 className="text-3xl font-semibold text-gray-900 mb-2">
-        What Our Patient Say
+        What Our Patients Say
       </h2>
       <p className="text-gray-500 mb-10 max-w-2xl mx-auto">
         Voices of our patients&apos; journeys.
