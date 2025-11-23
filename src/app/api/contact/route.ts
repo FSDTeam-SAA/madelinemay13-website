@@ -6,10 +6,9 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { firstName, lastName, email, phone, message } = body;
 
-    // Create a transporter using SMTP
     const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: Number.parseInt("587"),
+      host: "smtp.office365.com",
+      port: 587,
       secure: false,
       auth: {
         user: process.env.SMTP_USER,
