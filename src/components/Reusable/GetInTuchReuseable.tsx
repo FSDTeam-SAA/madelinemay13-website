@@ -72,9 +72,9 @@ export default function GetInTuchReuseable() {
 
   return (
     <section className=" my-2 md:my-10 mt-[60px] lg:mt-[120px]">
-      <div className="container mx-auto bg-[#FFF] rounded-2xl shadow-md p-10 grid grid-cols-1 md:grid-cols-2 ">
+      <div className="container mx-auto bg-[#FFF] rounded-2xl shadow-md  p-2 md:p-5 lg:p-10 grid grid-cols-1 md:grid-cols-2 ">
         {/* Left side: Form */}
-        <div className="p-10 order-1 md:order-1">
+        <div className="p-2 md:p-5 lg:p-10 order-1 md:order-1">
           <h2
             className="text-2xl md:text-4xl font-bold text-[#101828]"
             style={{ fontFamily: "var(--font-playfair)" }}
