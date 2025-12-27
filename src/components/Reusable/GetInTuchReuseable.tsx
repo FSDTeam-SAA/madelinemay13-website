@@ -97,7 +97,7 @@ export default function GetInTuchReuseable() {
                       <FormLabel>First Name</FormLabel>
                       <FormControl>
                         <Input
-                          placeholder="Frist Name"
+                          placeholder="First Name"
                           {...field}
                           className="py-5 rounded-sm"
                         />
